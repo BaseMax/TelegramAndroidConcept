@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21:48"
+                    android:textColor="#5f6369"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جواد ثابت"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:singleLine="true"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/unread_number"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_gravity="left|center_horizontal|center_vertical"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/chatunread_bubble"
+                    android:visibility="visible"
+                    />
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="سلام، حالت خوبه؟ این یک متن طولانی است\n که ما میخواهیم این را آزمایش کنیم."
+                    android:textColor="#707579"
+                    android:textSize="15dp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chat_avatar"
+                android:layout_gravity="right"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
