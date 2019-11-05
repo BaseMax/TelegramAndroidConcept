@@ -1,9 +1,0 @@
-<resources>
-
-    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
-    </style>
-    <style name="MyDialogTheme" parent="android:Theme.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowNoTitle">true</item>
-    </style>
-</resources>
