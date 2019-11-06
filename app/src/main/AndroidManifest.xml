@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.aterd.city">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:name=".Utility.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logonew"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.ActivityMain">
+        </activity>
+        <activity android:name=".Activity.ActivityWelcome">
+        </activity>
+        <activity android:name=".Activity.ActivityRegister">
+        </activity>
+        <activity android:name=".Activity.ActivityChat">
+        </activity>
+        <activity android:name=".Activity.ActivityReportNew">
+        </activity>
+        <activity android:name=".Activity.ActivitySetting">
+        </activity>
+        <activity android:name=".Activity.ActivitySession">
+        </activity>
+        <activity android:name=".Activity.ActivitySettingNotification">
+        </activity>
+        <activity android:name=".Activity.ActivityLanguage">
+        </activity>
+        <activity android:name=".Activity.ActivitySettingPrivacy">
+        </activity>
+        <activity android:name=".Activity.ActivityReport">
+        </activity>
+        <activity android:name=".Activity.ActivityPaytax">
+        </activity>
+        <activity android:name=".Activity.ActivityProfileEdit">
+        </activity>
+        <activity android:name=".Activity.ActivityProfile">
+        </activity>
+        <activity android:name=".Activity.ActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ActivityVerify">
+        </activity>
+    </application>
+</manifest>

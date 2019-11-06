@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    android:background="@drawable/welcome_background">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="کاشانم"
+            android:textSize="45dp"
+            android:gravity="center"
+            android:textColor="@color/welcome_title_color"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شهر هوشمند"
+            android:textSize="25dp"
+            android:textColor="@color/welcome_subtitle_color"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|left"
+        android:layout_gravity="bottom|left"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/button_continue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/shape_button"
+            android:text="بزن بریم"
+            android:textColor="@color/button_textcolor"
+            android:gravity="center"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

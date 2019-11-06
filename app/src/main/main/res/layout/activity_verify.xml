@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:id="@+id/box_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/back_arrow"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برگشت"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logonew"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+98 913 495 0787"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="#000000"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="کد فعال سازی برای شما پیامک شد."
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="17dp"
+                android:textColor="#707579"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                />
+
+
+            <EditText
+                android:id="@+id/edit_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="15dp"
+                android:hint="کد"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:textColorHint="#a2acb4"
+                android:background="@drawable/edittext_background_error"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="15dp"
+                />
+
+            <Button
+                android:id="@+id/button_continue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shape_button"
+                android:text="بزن بریم"
+                android:textColor="@color/button_textcolor"
+                android:gravity="center"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|left"
+        android:layout_gravity="bottom|left"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="کاشانم توسط گروه اسرز مدیریت می شود."
+            android:paddingTop="10dp"
+            android:textSize="12dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
