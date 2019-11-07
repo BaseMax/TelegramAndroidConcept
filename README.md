@@ -30,6 +30,13 @@ A new Android application based on new telegram concepts design Using **Java** f
 - Custom font
 - Own elements(checkbox, radiobutton, textbox, button, ...)
 
+
+## Telegram
+
+a new era of messaging.
+
+https://telegram.org/
+
 ---------
 
 # Max Base
