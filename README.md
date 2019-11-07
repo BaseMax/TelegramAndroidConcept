@@ -1,6 +1,6 @@
 # Telegram Concept Android
 
-A new Android application based on new telegram concepts design Using pure Android with support SDK 9 and up to more.
+A new Android application based on new telegram concepts design Using **Java** for Android devices with support SDK 9 and up to more. (Support 100% of the android phone)
 
 ![Telegram Concept Android screen - apk java](screens/screens.jpg)
 
